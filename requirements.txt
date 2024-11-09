@@ -1,1 +1,7 @@
-
+streamlit
+streamlit-option-menu
+streamlit-aggrid
+streamlit-folium
+pandas
+sqlite3
+folium
