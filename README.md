@@ -17,22 +17,17 @@ DragonMDM is a Mobile Device Management (MDM) dashboard built using Streamlit. I
 ## Installation
 
 1. Clone the repository:
+
    git clone https://github.com/Cybersecurity010110/DragonMDM.git
-   cd DragonMDM
 
+3. Install the dependencies:
 
-2. Install the dependencies:
+   pip install -r requirements.txt
 
-    pip install -r requirements.txt
+4. Initilize the database
 
-3.  Run the Streamlit app:
+   python initialize_db.py
 
-    streamlit run app.py
+5. Run the Streamlit app:
 
-     use the sidebar to navigate through the different sections of the dashboard. Each section provides specific functionality for managing and monitoring mobile devices.
-    
-   ### contributing
-    
-      Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-
+   streamlit run app.py
