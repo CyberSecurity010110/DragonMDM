@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4a77d4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sidebar styles */
+.stSidebar {
+    background-color: #4a77d4;
+    color: #fff;
+}
+
+.stSidebar .css-1d391kg {
+    color: #fff;
+}
+
+.stSidebar .css-1d391kg:hover {
+    color: #f4f4f9;
+}
+
+/* Button styles */
+.stButton button {
+    background-color: #4a77d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #3762bc;
+}
+
+/* Form input styles */
+.stTextInput input, .stNumberInput input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.stTextInput input:focus, .stNumberInput input:focus {
+    border-color: #4a77d4;
+    outline: none;
+}
+
+/* Table styles */
+.stAgGrid .ag-root-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Map styles */
+.folium-map {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Success message styles */
+.stAlert {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
