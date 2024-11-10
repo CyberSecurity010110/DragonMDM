@@ -28,6 +28,17 @@ DragonMDM is a Mobile Device Management (MDM) dashboard built using Streamlit. I
 
    python initialize_db.py
 
-5. Run the Streamlit app:
+6. Run the Streamlit app:
 
    streamlit run app.py
+
+### Usage
+
+    Use the sidebar to navigate through the different sections of the dashboard. Each section provides specific functionality for managing and monitoring mobile devices.
+
+
+#### Contributing
+
+     Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+   
