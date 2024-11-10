@@ -14,6 +14,10 @@ from scripts.compliance_reporting import generate_compliance_report
 st.set_page_config(page_title="DragonMDM Dashboard", layout="wide")
 st.title("DragonMDM Dashboard")
 
+# Include custom CSS
+with open("static/css/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu(
